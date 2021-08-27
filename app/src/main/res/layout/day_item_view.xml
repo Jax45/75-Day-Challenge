@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="15dp"
+    android:background="@drawable/popup_border"
+
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/DayLabel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Monday Day 32"
+        android:textColor="@color/black"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display2" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <CheckBox
+                android:id="@+id/WorkoutCheckBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Workout (20 min)" />
+
+            <CheckBox
+                android:id="@+id/DrinkCheckBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="One Drink Socially" />
+
+            <CheckBox
+                android:id="@+id/PrayCheckBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Pray (10 min)" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <CheckBox
+                android:id="@+id/FoodCheckBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tracked Food" />
+
+            <CheckBox
+                android:id="@+id/ReadCheckBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Read 10 Pages" />
+
+            <CheckBox
+                android:id="@+id/GallonCheckBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Drink 1 Gallon of Water" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

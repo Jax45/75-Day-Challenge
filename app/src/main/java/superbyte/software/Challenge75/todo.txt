@@ -1,0 +1,4 @@
+Add celebration message/sound/animation when completing a week or day
+Notifications (Need to know what day currently on. maybe haven't clicked a full day yet.)
+  alter whether it happens based on check.(when we check a day off, we cancel the notification for that day and set it to the next.)
+  only notify if not completed for that day.
